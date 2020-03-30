@@ -1,4 +1,4 @@
-package by.academy.HomeWork1.task2;
+package by.academy.HomeWork2.task2;
 
 public class Counter {
     public int getOddRepeatedNumber(int[] numbers) {
