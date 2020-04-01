@@ -2,10 +2,9 @@ package by.academy.HomeWork1.task1;
 
 public class CalculatorWithCounter implements ICalculator {
     private ICalculator calc;
-    private int countOperation = 0;
+    private int countOperation;
 
     public CalculatorWithCounter(ICalculator calc) {
-        this.countOperation++;
         this.calc = calc;
     }
 

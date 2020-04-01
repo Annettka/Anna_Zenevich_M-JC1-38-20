@@ -19,7 +19,7 @@ public class MainCountry {
         System.out.println(countryInfo.compareTo(countryFormString));
 
         CountryAreaComparator comparator = new CountryAreaComparator();
-        comparator.getLargestArea(Country.ALGERIA, Country.CANADA);
-        comparator.getLargestArea(Country.CHINA, Country.INDIA);
+        System.out.println(comparator.getLargestArea(Country.ALGERIA, Country.CANADA));
+        System.out.println(comparator.getLargestArea(Country.CHINA, Country.INDIA));
     }
 }

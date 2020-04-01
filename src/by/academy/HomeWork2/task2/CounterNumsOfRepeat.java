@@ -1,6 +1,6 @@
 package by.academy.HomeWork2.task2;
 
-public class Counter {
+public class CounterNumsOfRepeat {
     public int getOddRepeatedNumber(int[] numbers) {
         int repNum = 0;
         for (int number : numbers) {
