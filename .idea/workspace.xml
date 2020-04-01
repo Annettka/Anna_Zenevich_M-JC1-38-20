@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5d4043d-74a9-46f0-a182-dede49213929" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork1/task1/CalculatorWithCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/academy/HomeWork1/task1/CalculatorWithCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork2/task1/CountryAreaComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/academy/HomeWork2/task1/CountryAreaComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork2/task1/MainCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/academy/HomeWork2/task1/MainCountry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork2/task2/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/academy/HomeWork2/task2/CounterNumsOfRepeat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +32,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/IT-academy/Zenevich_Anna/M-JC1-38-20" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -109,6 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584872459162</updated>
+      <workItem from="1585766335454" duration="5311000" />
     </task>
     <task id="LOCAL-00001" summary="Task 2 with arrays complete">
       <created>1585162418347</created>
@@ -148,6 +148,9 @@
     <option name="localTasksCounter" value="6" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Task 2 with arrays complete" />
     <MESSAGE value="Homework2 task1 complete" />
@@ -155,10 +158,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="CalculatorWithCounter complete" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1585666522560">
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1585771222813">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585666522560" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585771222813" />
+    <state x="531" y="252" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585766553392">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="531" y="252" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1585766553392" />
     <state x="479" y="248" width="415" height="238" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585672974309">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
