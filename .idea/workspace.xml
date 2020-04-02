@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5d4043d-74a9-46f0-a182-dede49213929" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/Door.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/Fuel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/Fuel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/Garage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/Garage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/ICar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/ICar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/IDoor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/IFuel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/IFuel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/IGarage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/IHuman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/IHuman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/ILock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/ILock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/ITank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/ITank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/Lock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/Lock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/Tank.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +28,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -34,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IT-academy/Zenevich_Anna/M-JC1-38-20" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/by/academy/HomeWork2/task4" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager" selected="Application.Main2">
@@ -108,7 +122,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584872459162</updated>
-      <workItem from="1585766335454" duration="5311000" />
+      <workItem from="1585766335454" duration="16445000" />
     </task>
     <task id="LOCAL-00001" summary="Task 2 with arrays complete">
       <created>1585162418347</created>
@@ -145,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585598238954</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2">
+      <created>1585771794743</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585771794743</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,13 +176,14 @@
     <MESSAGE value="Task 2 with arrays complete" />
     <MESSAGE value="Homework2 task1 complete" />
     <MESSAGE value="CalculatorWithCounter complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="CalculatorWithCounter complete" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1585771222813">
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1585826367636">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585771222813" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585826367636" />
     <state x="531" y="252" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585766553392">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -170,14 +192,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="479" y="248" width="415" height="238" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1585672974309" />
-    <state x="197" y="0" key="CommitChangelistDialog2" timestamp="1585598229230">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585811322503">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="197" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585598229230" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1584872865525">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1585811322503" />
+    <state x="197" y="0" key="CommitChangelistDialog2" timestamp="1585771789015">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584872865525" />
+    <state x="197" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585771789015" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1585827317798">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585827317798" />
     <state width="1323" height="171" key="GridCell.Tab.0.bottom" timestamp="1585598324232">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
