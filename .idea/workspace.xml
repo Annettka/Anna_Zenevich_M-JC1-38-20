@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5d4043d-74a9-46f0-a182-dede49213929" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/Door.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/Engine.java" afterDir="false" />
@@ -18,6 +17,7 @@
       <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/ITank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/ITank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/Lock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/Lock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/task4.uml" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/task4.uml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/by/academy/HomeWork2/task4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/by/academy/HomeWork2/task4/task4.uml" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager" selected="Application.Main2">
@@ -122,7 +122,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584872459162</updated>
-      <workItem from="1585766335454" duration="16445000" />
+      <workItem from="1585766335454" duration="16736000" />
     </task>
     <task id="LOCAL-00001" summary="Task 2 with arrays complete">
       <created>1585162418347</created>
@@ -166,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585771794743</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Diagram">
+      <created>1585827478240</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585827478240</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +184,8 @@
     <MESSAGE value="Homework2 task1 complete" />
     <MESSAGE value="CalculatorWithCounter complete" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="Diagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="Diagram" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1585826367636">
@@ -196,14 +204,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1585811322503" />
-    <state x="197" y="0" key="CommitChangelistDialog2" timestamp="1585771789015">
+    <state x="197" y="0" key="CommitChangelistDialog2" timestamp="1585827469035">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="197" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585771789015" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1585827317798">
+    <state x="197" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585827469035" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1585827624328">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585827317798" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585827624328" />
     <state width="1323" height="171" key="GridCell.Tab.0.bottom" timestamp="1585598324232">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
