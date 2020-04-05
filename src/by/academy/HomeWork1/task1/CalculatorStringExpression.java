@@ -7,7 +7,7 @@ public class CalculatorStringExpression {
     final int NUMBER = 3;
     final int SYNTAXERROR = 0;
     final int UNBALPARENS = 1; //not closed parentheses
-    final int NOEXP = 2;       //no expr
+    final int NOEXP = 2;       //no expression
     final int DIVBYZERO = 3;   //div by zero
     final String EOF = "\0";   //end of expr
 
@@ -170,18 +170,15 @@ public class CalculatorStringExpression {
 
     private double getValue() throws Exception {
         double result = 0.0;
-        switch (tokType) {
-            case NUMBER:
-                try {
-                    result = Double.parseDouble(token);
-                } catch (NumberFormatException exc) {
-                    handleErr(SYNTAXERROR);
-                }
-                getToken();
-                break;
-            default:
+        if (tokType == NUMBER) {
+            try {
+                result = Double.parseDouble(token);
+            } catch (NumberFormatException exc) {
                 handleErr(SYNTAXERROR);
-                break;
+            }
+            getToken();
+        } else {
+            handleErr(SYNTAXERROR);
         }
         return result;
     }
