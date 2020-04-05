@@ -4,7 +4,6 @@
     <list default="true" id="d5d4043d-74a9-46f0-a182-dede49213929" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork1/task1/CalculatorStringExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/academy/HomeWork1/task1/CalculatorStringExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/academy/HomeWork2/task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/academy/HomeWork2/task2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585754820668</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Calculator String Expression">
+      <created>1586102686113</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586102686113</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -172,7 +178,8 @@
     <MESSAGE value="Homework2 task1 complete" />
     <MESSAGE value="CalculatorWithCounter complete" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="Calculator String Expression" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculator String Expression" />
   </component>
   <component name="WindowStateProjectService">
     <state x="433" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585756132949">
@@ -187,10 +194,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="479" y="248" width="415" height="238" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1585672974309" />
-    <state x="197" y="0" key="CommitChangelistDialog2" timestamp="1585754805573">
+    <state x="197" y="0" key="CommitChangelistDialog2" timestamp="1586102646023">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="197" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585754805573" />
+    <state x="197" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586102646023" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1584872865525">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -231,10 +238,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586020567214" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1585754846378">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1586102695306">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585754846378" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1586102695306" />
     <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1586079970670">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -247,16 +254,5 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585756267686" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/by/academy/HomeWork1/task1/Main3.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
