@@ -27,13 +27,7 @@ public class CalculatorStringExpression {
             token = EOF;
             return;
         }
-        while (currIndex < exp.length() && Character.isWhitespace(exp.charAt(currIndex))) {
-            ++currIndex;
-        }
-        if (currIndex == exp.length()) {
-            token = EOF;
-            return;
-        }
+
         if (isDelim(exp.charAt(currIndex))) {
             token += exp.charAt(currIndex);
             currIndex++;
