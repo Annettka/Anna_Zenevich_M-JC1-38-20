@@ -1,4 +1,4 @@
-package by.academy.HomeWork2.task4;
+package by.academy.HomeWork3.task1;
 
 public interface IHuman {
     void ownCar(ICar car);

@@ -2,8 +2,8 @@ package by.academy.HomeWork2.task1;
 
 public class MainCountry {
     public static void main(String[] args) {
-        Country countryInfo = Country.ARGENTINA;
-        Country countryFormString = Country.valueOf("ARGENTINA");
+        ECountry countryInfo = ECountry.ARGENTINA;
+        ECountry countryFormString = ECountry.valueOf("ARGENTINA");
         System.out.println(countryInfo == countryFormString);
 
         /*Country countryFormString1 = Country.valueOf("BELARUS");
@@ -13,13 +13,13 @@ public class MainCountry {
 	    at by.academy.HomeWork2.task1.Country.valueOf(Country.java:3)
 	    at by.academy.HomeWork2.task1.MainCountry.main(MainCountry.java:8)*/
 
-        Country countryInfo2 = Country.RUSSIA;
-        Country countryInfo3 = Country.USA;
+        ECountry countryInfo2 = ECountry.RUSSIA;
+        ECountry countryInfo3 = ECountry.USA;
         System.out.println(countryInfo2.compareTo(countryInfo3));
         System.out.println(countryInfo.compareTo(countryFormString));
 
         CountryAreaComparator comparator = new CountryAreaComparator();
-        System.out.println(comparator.getLargestArea(Country.ALGERIA, Country.CANADA));
-        System.out.println(comparator.getLargestArea(Country.CHINA, Country.INDIA));
+        System.out.println(comparator.getLargestArea(ECountry.ALGERIA, ECountry.CANADA));
+        System.out.println(comparator.getLargestArea(ECountry.CHINA, ECountry.INDIA));
     }
 }

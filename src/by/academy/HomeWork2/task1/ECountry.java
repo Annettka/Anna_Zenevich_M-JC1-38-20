@@ -1,6 +1,6 @@
 package by.academy.HomeWork2.task1;
 
-public enum Country implements ICountry {
+public enum ECountry implements ICountry {
     RUSSIA(17100000, 146877088),
     CANADA(9984670, 38006000),
     CHINA(9597000, 1400970200),
@@ -14,7 +14,7 @@ public enum Country implements ICountry {
     private long area;
     private long population;
 
-    Country(long area, long population) {
+    ECountry(long area, long population) {
         this.area = area;
         this.population = population;
     }
