@@ -1,6 +1,6 @@
 package by.academy.HomeWork3.task1;
 
-public class Car implements ICar {
+public class Car extends ACar implements ICar {
 
     public Car() {
     }
