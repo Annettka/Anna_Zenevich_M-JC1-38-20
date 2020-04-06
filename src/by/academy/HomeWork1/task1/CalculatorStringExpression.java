@@ -4,7 +4,10 @@ public class CalculatorStringExpression {
 
     final int NONE = 0;
     final int DELIMITER = 1;
-    final int NUMBER = 3;
+    final double NUMBER = 2;
+    final double PI = 3.14;
+    final double E = 2.718;
+
     final int SYNTAXERROR = 0;
     final int UNBALPARENS = 1; //not closed parentheses
     final int NOEXP = 2;       //no expression
@@ -14,7 +17,7 @@ public class CalculatorStringExpression {
     private String exp;
     private int currIndex;
     private String token;
-    private int tokType;
+    private double tokType;
 
     private void getToken() {
         tokType = NONE;
@@ -35,6 +38,7 @@ public class CalculatorStringExpression {
             token += exp.charAt(currIndex);
             currIndex++;
             tokType = DELIMITER;
+
         } else if (Character.isDigit(exp.charAt(currIndex))) {
             while (!isDelim(exp.charAt(currIndex))) {
                 token += exp.charAt(currIndex);
@@ -44,6 +48,19 @@ public class CalculatorStringExpression {
                 }
             }
             tokType = NUMBER;
+        } else if (Character.isLetter(exp.charAt(currIndex))) {
+            while (!isDelim(exp.charAt(currIndex))) {
+                token += exp.charAt(currIndex);
+                currIndex++;
+                if (currIndex >= exp.length()) {
+                    break;
+                }
+            }
+            if ("PI".equalsIgnoreCase(token)) {
+                tokType = PI;
+            } else if ("E".equalsIgnoreCase(token)) {
+                tokType = E;
+            }
         } else {
             token = EOF;
             return;
@@ -57,7 +74,7 @@ public class CalculatorStringExpression {
     //  Enter point
     public double evaluate(String expr) throws Exception {
         double result;
-        exp = expr;
+        exp = expr.replace(" ", "");
         currIndex = 0;
         getToken();
 
@@ -176,6 +193,12 @@ public class CalculatorStringExpression {
             } catch (NumberFormatException exc) {
                 handleErr(SYNTAXERROR);
             }
+            getToken();
+        } else if (tokType == PI) {
+            result = PI;
+            getToken();
+        } else if (tokType == E) {
+            result = E;
             getToken();
         } else {
             handleErr(SYNTAXERROR);

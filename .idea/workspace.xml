@@ -170,7 +170,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586102686113</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Calculator String Expression">
+      <created>1586103485266</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586103485266</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Calculator String Expression">
+      <created>1586103617110</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586103617110</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -194,58 +208,62 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="479" y="248" width="415" height="238" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1585672974309" />
-    <state x="197" y="0" key="CommitChangelistDialog2" timestamp="1586103471568">
+    <state x="197" y="0" key="CommitChangelistDialog2" timestamp="1586103606702">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="197" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586103471568" />
+    <state x="197" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586103606702" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1584872865525">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584872865525" />
-    <state width="1323" height="171" key="GridCell.Tab.0.bottom" timestamp="1586103474660">
+    <state width="1323" height="214" key="GridCell.Tab.0.bottom" timestamp="1586193247463">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586103474660" />
-    <state width="1323" height="171" key="GridCell.Tab.0.center" timestamp="1586103474660">
+    <state width="1323" height="214" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586193247463" />
+    <state width="1323" height="214" key="GridCell.Tab.0.center" timestamp="1586193247462">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586103474660" />
-    <state width="1323" height="171" key="GridCell.Tab.0.left" timestamp="1586103474659">
+    <state width="1323" height="214" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586193247462" />
+    <state width="1323" height="214" key="GridCell.Tab.0.left" timestamp="1586193247462">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586103474659" />
-    <state width="1323" height="171" key="GridCell.Tab.0.right" timestamp="1586103474660">
+    <state width="1323" height="214" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586193247462" />
+    <state width="1323" height="214" key="GridCell.Tab.0.right" timestamp="1586193247463">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586103474660" />
-    <state width="1323" height="214" key="GridCell.Tab.1.bottom" timestamp="1586102330843">
+    <state width="1323" height="214" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586193247463" />
+    <state width="1323" height="214" key="GridCell.Tab.1.bottom" timestamp="1586193247465">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586102330843" />
-    <state width="1323" height="214" key="GridCell.Tab.1.center" timestamp="1586102330843">
+    <state width="1323" height="214" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586193247465" />
+    <state width="1323" height="214" key="GridCell.Tab.1.center" timestamp="1586193247464">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1586102330843" />
-    <state width="1323" height="214" key="GridCell.Tab.1.left" timestamp="1586102330842">
+    <state width="1323" height="214" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1586193247464" />
+    <state width="1323" height="214" key="GridCell.Tab.1.left" timestamp="1586193247464">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1586102330842" />
-    <state width="1323" height="214" key="GridCell.Tab.1.right" timestamp="1586102330843">
+    <state width="1323" height="214" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1586193247464" />
+    <state width="1323" height="214" key="GridCell.Tab.1.right" timestamp="1586193247464">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1586102330843" />
+    <state width="1323" height="214" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1586193247464" />
+    <state x="395" y="79" key="MultipleFileMergeDialog" timestamp="1586103752948">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="395" y="79" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1586103752948" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1586020567214">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586020567214" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1586103496144">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1586103884338">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1586103496144" />
-    <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1586079970670">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1586103884338" />
+    <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1586188973415">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586079970670" />
+    <state x="378" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586188973415" />
     <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584877857238">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -254,5 +272,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585756267686" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/by/academy/HomeWork1/task1/Main3.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
