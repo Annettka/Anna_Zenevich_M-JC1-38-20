@@ -1,35 +1,8 @@
 package by.academy.HomeWork3.task1;
 
-public class Human implements IHuman{
+public class Human{
 
     private int key;
 
-    @Override
-    public void ownCar(ICar car) {
-
-    }
-
-    @Override
-    public void ownGarage(IGarage garage) {
-
-    }
-
-    @Override
-    public void hasKey(int key) {
-
-    }
-
-    @Override
-    public boolean openDoor(IDoor door) {
-        return false;
-    }
-
-    @Override
-    public void tax() {
-
-    }
-    public int getPassenger(int numOfPassangers){
-        return numOfPassangers;
-    }
 
 }

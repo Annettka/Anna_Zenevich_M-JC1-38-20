@@ -9,8 +9,8 @@ public class Fuel implements IFuel {
     }
 
     @Override
-    public void comeToEnd() {
-
+    public String outputMessage() {
+        return null;
     }
 
     public void getState() {

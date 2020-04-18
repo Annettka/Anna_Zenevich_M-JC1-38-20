@@ -8,7 +8,8 @@ public class Car extends ACar implements ICar {
     @Override
     public boolean ride() {
         Engine engine = new Engine();
-        return engine.getState();
+ //       engine.getStateOfFuel(Tank); ????????
+        return true;
 
     }
 
@@ -16,8 +17,37 @@ public class Car extends ACar implements ICar {
     public boolean stop() {
         return false;
     }
-    public void haveEngine(Engine engine){
 
+    @Override
+    public void hasOwner(Human human) {
+
+    }
+
+    @Override
+    public void parkInGarage(IGarage garage) {
+
+    }
+
+    @Override
+    public boolean openDoor(IDoor door) {
+        return false;
+    }
+
+    @Override
+    public void fillTank() {
+
+    }
+
+    /*public void haveEngine(Engine engine){
+
+    }*/
+
+    void tax() {
+
+    }
+
+    public int getPassenger(int numOfPassangers){
+        return numOfPassangers;
     }
 
 }

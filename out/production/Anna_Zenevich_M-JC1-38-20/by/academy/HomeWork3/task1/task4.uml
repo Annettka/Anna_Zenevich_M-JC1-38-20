@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>by.academy.HomeWork3.task4</OriginalElement>
+  <nodes>
+    <node x="667.6666666666666" y="619.0">by.academy.HomeWork3.task4.Engine</node>
+    <node x="291.375" y="597.0">by.academy.HomeWork3.task4.IHuman</node>
+    <node x="734.7916666666666" y="22.0">by.academy.HomeWork3.task4.IFuel</node>
+    <node x="5.293180127164419" y="0.0">by.academy.HomeWork3.task4.EFuel</node>
+    <node x="329.875" y="178.0">by.academy.HomeWork3.task4.ILock</node>
+    <node x="32.23068012716442" y="147.0">by.academy.HomeWork3.task4.Fuel</node>
+    <node x="852.2931801271644" y="189.0">by.academy.HomeWork3.task4.ITank</node>
+    <node x="725.429848146645" y="851.0">by.academy.HomeWork3.task4.Car</node>
+    <node x="555.4483563311688" y="419.0">by.academy.HomeWork3.task4.IEngine</node>
+    <node x="502.6666666666667" y="609.0">by.academy.HomeWork3.task4.Garage</node>
+    <node x="159.6992187499999" y="828.0">by.academy.HomeWork3.task4.Human</node>
+    <node x="705.4483563311688" y="376.0">by.academy.HomeWork3.task4.Tank</node>
+    <node x="919.5533854166666" y="608.0">by.academy.HomeWork3.task4.ACar</node>
+    <node x="75.375" y="598.0">by.academy.HomeWork3.task4.Lock</node>
+    <node x="310.25151346049773" y="408.0">by.academy.HomeWork3.task4.ICar</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="by.academy.HomeWork3.task4.Engine" target="by.academy.HomeWork3.task4.IEngine">
+      <point x="-48.66666666666663" y="-48.5" />
+      <point x="692.0" y="567.0" />
+      <point x="620.4483563311688" y="567.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="by.academy.HomeWork3.task4.Tank" target="by.academy.HomeWork3.task4.Fuel">
+      <point x="-21.25" y="-80.5" />
+      <point x="769.1983563311688" y="336.0" />
+      <point x="159.10568012716442" y="336.0" />
+      <point x="54.375" y="79.5" />
+    </edge>
+    <edge source="by.academy.HomeWork3.task4.Car" target="by.academy.HomeWork3.task4.Engine">
+      <point x="-60.85714285714289" y="-101.5" />
+      <point x="771.0727052895021" y="808.0" />
+      <point x="758.9166666666666" y="808.0" />
+      <point x="18.25" y="48.5" />
+    </edge>
+    <edge source="by.academy.HomeWork3.task4.Human" target="by.academy.HomeWork3.task4.EFuel">
+      <point x="-75.90909090909093" y="-124.5" />
+      <point x="167.29012784090895" y="808.0" />
+      <point x="0.0" y="808.0" />
+      <point x="0.0" y="127.0" />
+      <point x="19.126513460497733" y="127.0" />
+      <point x="-27.666666666666686" y="48.5" />
+    </edge>
+    <edge source="by.academy.HomeWork3.task4.Human" target="by.academy.HomeWork3.task4.Tank">
+      <point x="45.54545454545456" y="-124.5" />
+      <point x="288.74467329545445" y="788.0" />
+      <point x="657.1666666666666" y="788.0" />
+      <point x="657.1666666666666" y="577.0" />
+      <point x="722.4483563311688" y="577.0" />
+      <point x="-68.0" y="80.5" />
+    </edge>
+    <edge source="by.academy.HomeWork3.task4.Car" target="by.academy.HomeWork3.task4.ILock">
+      <point x="60.85714285714289" y="-101.5" />
+      <point x="892.7869910037879" y="808.0" />
+      <point x="909.0533854166665" y="808.0" />
+      <point x="909.0533854166665" y="326.0" />
+      <point x="483.20833333333337" y="326.0" />
+      <point x="61.33333333333337" y="48.5" />
+    </edge>
+    <edge source="by.academy.HomeWork3.task4.Human" target="by.academy.HomeWork3.task4.Fuel">
+      <point x="-45.54545454545456" y="-124.5" />
+      <point x="197.65376420454533" y="788.0" />
+      <point x="56.92752299783547" y="788.0" />
+      <point x="56.92752299783547" y="356.0" />
+      <point x="86.60568012716442" y="356.0" />
+      <point x="-18.125" y="79.5" />
+    </edge>
+    <edge source="by.academy.HomeWork3.task4.Human" target="by.academy.HomeWork3.task4.IHuman">
+      <point x="30.363636363636374" y="-124.5" />
+      <point x="273.56285511363626" y="778.0" />
+      <point x="374.875" y="778.0" />
+      <point x="0.0" y="70.5" />
+    </edge>
+    <edge source="by.academy.HomeWork3.task4.Human" target="by.academy.HomeWork3.task4.Engine">
+      <point x="75.90909090909088" y="-124.5" />
+      <point x="319.10830965909076" y="808.0" />
+      <point x="722.4166666666666" y="808.0" />
+      <point x="-18.25" y="48.5" />
+    </edge>
+    <edge source="by.academy.HomeWork3.task4.ITank" target="by.academy.HomeWork3.task4.IFuel">
+      <point x="0.0" y="-37.5" />
+      <point x="927.2931801271644" y="127.0" />
+      <point x="861.6666666666666" y="127.0" />
+      <point x="54.375" y="26.5" />
+    </edge>
+    <edge source="by.academy.HomeWork3.task4.Lock" target="by.academy.HomeWork3.task4.ILock">
+      <point x="0.0" y="-69.5" />
+      <point x="167.375" y="356.0" />
+      <point x="360.5416666666667" y="356.0" />
+      <point x="-61.333333333333314" y="48.5" />
+    </edge>
+    <edge source="by.academy.HomeWork3.task4.Engine" target="by.academy.HomeWork3.task4.Tank">
+      <point x="48.66666666666663" y="-48.5" />
+      <point x="789.3333333333333" y="577.0" />
+      <point x="790.4483563311688" y="577.0" />
+      <point x="0.0" y="80.5" />
+    </edge>
+    <edge source="by.academy.HomeWork3.task4.IHuman" target="by.academy.HomeWork3.task4.ICar">
+      <point x="0.0" y="-70.5" />
+      <point x="374.875" y="577.0" />
+      <point x="399.00151346049773" y="577.0" />
+      <point x="-17.75" y="48.5" />
+    </edge>
+    <edge source="by.academy.HomeWork3.task4.ICar" target="by.academy.HomeWork3.task4.ILock">
+      <point x="0.0" y="-48.5" />
+      <point x="416.75151346049773" y="356.0" />
+      <point x="421.875" y="356.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="by.academy.HomeWork3.task4.Garage" target="by.academy.HomeWork3.task4.ICar">
+      <point x="36.0" y="-58.5" />
+      <point x="610.6666666666667" y="557.0" />
+      <point x="505.50151346049773" y="557.0" />
+      <point x="88.75" y="48.5" />
+    </edge>
+    <edge source="by.academy.HomeWork3.task4.Fuel" target="by.academy.HomeWork3.task4.IFuel">
+      <point x="54.375" y="-79.5" />
+      <point x="159.10568012716442" y="127.0" />
+      <point x="789.1666666666666" y="127.0" />
+      <point x="-18.125" y="26.5" />
+    </edge>
+    <edge source="by.academy.HomeWork3.task4.Tank" target="by.academy.HomeWork3.task4.IFuel">
+      <point x="21.25" y="-80.5" />
+      <point x="811.6983563311688" y="356.0" />
+      <point x="841.7931801271644" y="356.0" />
+      <point x="841.7931801271644" y="127.0" />
+      <point x="825.4166666666666" y="127.0" />
+      <point x="18.125" y="26.5" />
+    </edge>
+    <edge source="by.academy.HomeWork3.task4.Car" target="by.academy.HomeWork3.task4.ACar">
+      <point x="91.28571428571422" y="-101.5" />
+      <point x="923.2155624323592" y="808.0" />
+      <point x="974.5533854166666" y="808.0" />
+      <point x="0.0" y="59.5" />
+    </edge>
+    <edge source="by.academy.HomeWork3.task4.Car" target="by.academy.HomeWork3.task4.Tank">
+      <point x="30.428571428571445" y="-101.5" />
+      <point x="862.3584195752164" y="808.0" />
+      <point x="854.5" y="808.0" />
+      <point x="854.5" y="577.0" />
+      <point x="858.4483563311688" y="577.0" />
+      <point x="68.0" y="80.5" />
+    </edge>
+    <edge source="by.academy.HomeWork3.task4.Human" target="by.academy.HomeWork3.task4.Lock">
+      <point x="-15.181818181818187" y="-124.5" />
+      <point x="228.0174005681817" y="768.0" />
+      <point x="213.375" y="768.0" />
+      <point x="46.0" y="69.5" />
+    </edge>
+    <edge source="by.academy.HomeWork3.task4.Tank" target="by.academy.HomeWork3.task4.ITank">
+      <point x="63.75" y="-80.5" />
+      <point x="854.1983563311688" y="356.0" />
+      <point x="927.2931801271644" y="356.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="by.academy.HomeWork3.task4.Human" target="by.academy.HomeWork3.task4.ICar">
+      <point x="0.0" y="-124.5" />
+      <point x="243.1992187499999" y="758.0" />
+      <point x="269.875" y="758.0" />
+      <point x="269.875" y="567.0" />
+      <point x="328.00151346049773" y="567.0" />
+      <point x="-88.75" y="48.5" />
+    </edge>
+    <edge source="by.academy.HomeWork3.task4.Car" target="by.academy.HomeWork3.task4.ICar">
+      <point x="-91.28571428571422" y="-101.5" />
+      <point x="740.6441338609308" y="778.0" />
+      <point x="468.875" y="778.0" />
+      <point x="468.875" y="577.0" />
+      <point x="434.50151346049773" y="577.0" />
+      <point x="17.75" y="48.5" />
+    </edge>
+    <edge source="by.academy.HomeWork3.task4.Fuel" target="by.academy.HomeWork3.task4.EFuel">
+      <point x="-54.375" y="-79.5" />
+      <point x="50.35568012716442" y="127.0" />
+      <point x="46.79318012716442" y="127.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8" x="401.0" y="338.75" />
+  <SelectedNodes>
+    <node>by.academy.HomeWork3.task4.IEngine</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -7,10 +7,12 @@ public class Engine {
     public boolean swichOff(){
         return true;
     }
-    void getStateOfFuel(IFuel fuel){
+
+    void spendFuel(){}; //fuel consumption
+    void getStateOfFuel(ITank tank){
 
     }
-    boolean getState(){
+    boolean getStateOfEngine(){
 
         return false;
     }

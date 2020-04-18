@@ -1,6 +1,6 @@
 package by.academy.HomeWork3.task1;
 
 public interface ILock {
-    void getKey();
+    boolean insertKey(IKey key);
     void getState();
 }
