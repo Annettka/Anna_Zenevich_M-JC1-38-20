@@ -1,33 +1,33 @@
 package by.academy.HomeWork4.task1;
 
 import java.text.SimpleDateFormat;
-import java.text.SimpleDateFormat.*;
-import java.util.Date;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class Person {
 
-    SimpleDateFormat dateF = new SimpleDateFormat("dd MM YYYY");
     private String nick;
     private String password;
-   // private String registration;
-    Date registration;
+    LocalDate registration;
 
-    public Person(String nick, String password, Date registration) {
+    public Person(String nick, String password, LocalDate registration) {
         this.nick = nick;
         this.password = password;
         this.registration = registration;
     }
 
-    public Date getRegistration() {
+    public LocalDate getRegistration() {
         return registration;
     }
+
+    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
 
     @Override
     public String toString() {
         return "Person{" +
                 "nick=" + nick +
                 ", password=" + password +
-                ", registration=" + dateF.format(registration) +
+                ", registration=" + registration.format(formatter) +
                 '}' + '\n';
     }
 }

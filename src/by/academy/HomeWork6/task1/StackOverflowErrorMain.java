@@ -6,14 +6,14 @@ public class StackOverflowErrorMain {
 
         try {
             Man man = new Man();
-        }catch (StackOverflowError e){
+        } catch (StackOverflowError e) {
             e.getMessage();
             System.err.println("Ой! Переполнение стека при создании объекта класса Man");
         }
     }
 }
 
-class Man{
+class Man {
     String name;
     Man man = new Man();
 }

@@ -31,6 +31,7 @@ public class ExceptionMain {
             if (0 < i && i <= 10) {
                 return i;
             } else {
+                scan.close();
                 throw new IllegalArgumentException();
             }
         }

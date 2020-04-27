@@ -9,10 +9,10 @@ public class OutOfMemoryErrMain {
     public static void main(String[] args) {
         ArrayList<Object> objects = new ArrayList<>();
         try {
-            for (;;) {
+            for (; ; ) {
                 objects.add(new Object());
             }
-        }catch (OutOfMemoryError e){
+        } catch (OutOfMemoryError e) {
             objects.clear();
             Scanner scan = new Scanner(System.in);
             System.out.println("Ошибка добавления Object в ArrayList<Object> objects.\nЗадайте размер ArrayList:");

@@ -2,8 +2,12 @@ package by.academy.HomeWork4.task1;
 
 import java.util.*;
 
-public class DataContainer<E>{
+public class DataContainer<E> {
     private E[] data;
+
+    public E[] getData() {
+        return data;
+    }
 
     public DataContainer(E[] data) {
         this.data = data;
@@ -20,30 +24,45 @@ public class DataContainer<E>{
             }
         }
     }
+
     public static <E> void sort(DataContainer<E> data, Comparator<E> compar) {
-        /*List <DataContainer<E>> coll = Arrays.asList(data);
-        Collections.sort(coll, new Comparator<E> compar);
-
-        coll.sort(compar.compare(o1, o2));
-        data.sort(compar.compare(E o1, E o2));
-
-*/
-
+        boolean unsorted = true;
+        while (unsorted) {
+            unsorted = false;
+            for (int i = 0; i < data.getData().length - 1; i++) {
+                if (compar.compare(data.getData()[i], data.getData()[i + 1]) == 1) {
+                    E temp = data.getData()[i];
+                    data.getData()[i] = data.getData()[i + 1];
+                    data.getData()[i + 1] = temp;
+                    unsorted = true;
+                }
+            }
+        }
     }
 
-    public void delete(int index) {
-        remove(this.data[index]);
+    void delete(int index) {
+        if (index >= 0 || index < data.length - 1) {
+            for (int i = index; i < data.length - 1; i++) {
+                data[i] = data[i + 1];
+            }
+            data = Arrays.copyOf(data, data.length - 1);
+        } else {
+            System.err.println("Index not found");
+        }
     }
 
-    private void remove(E datum) {
-    }
-
-    public <E> void delete(E item) {
-
-    }
-
-    public E[] getData() {
-        return data;
+    void delete(E item) {
+        int ind = -1;
+        for (int i = 0; i < data.length - 1; i++) {
+            if (item.equals(data[i])) {
+                ind = i;
+            }
+        }
+        if ((ind > -1)) {
+            delete(ind);
+        } else {
+            System.err.println("Element not found");
+        }
     }
 
 
