@@ -38,8 +38,6 @@ public class MainDataContainer {
 
     }
 
-//
-
     public static String getRndStr() {
         char[] chars = "abcdefghijklmnopqrstuvwxyz".toCharArray();
         Random rnd = new Random();

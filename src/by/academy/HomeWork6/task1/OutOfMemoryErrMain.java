@@ -1,6 +1,5 @@
 package by.academy.HomeWork6.task1;
 
-import java.awt.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
