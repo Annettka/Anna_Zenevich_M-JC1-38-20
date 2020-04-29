@@ -26,10 +26,10 @@ public class MainStudents2 {
         /**
          * second variant:
          */
-        while (true){
-            try{
-                students.add((Student)in.readObject());
-            }catch (EOFException | ClassNotFoundException e){
+        while (true) {
+            try {
+                students.add((Student) in.readObject());
+            } catch (EOFException | ClassNotFoundException e) {
                 break;
             }
         }
@@ -48,7 +48,7 @@ public class MainStudents2 {
         ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("StudentsSorted.txt"));
         for (Student student : students) {
             out.writeBytes(student.toString());
-   //         out.write(student.toString().getBytes());
+            //         out.write(student.toString().getBytes());
         }
         out.close();
 
