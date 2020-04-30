@@ -33,6 +33,7 @@ public class MainStudents2 {
                 break;
             }
         }
+        in.close();
 
         System.out.println("Unsorted list of students\n" + students);
         System.out.println();
@@ -43,7 +44,9 @@ public class MainStudents2 {
                 return s1.getName().compareTo(s2.getName());
             }
         });
+
         System.out.println("Sorted by name list of students. From Students.bin\n" + students);
+        System.out.println();
 
         ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("StudentsSorted.bin"));
         for (Student student : students) {
@@ -66,7 +69,8 @@ public class MainStudents2 {
                 break;
             }
         }
-        System.out.println("Sorted by name list of students. From StudentsSorted.bin\n" + students1);
+        in1.close();
 
+        System.out.println("Sorted by name list of students. From StudentsSorted.bin\n" + students1);
     }
 }
