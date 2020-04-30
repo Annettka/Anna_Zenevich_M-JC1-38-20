@@ -47,10 +47,26 @@ public class MainStudents2 {
 
         ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("StudentsSorted.txt"));
         for (Student student : students) {
-            out.writeBytes(student.toString());
-            //         out.write(student.toString().getBytes());
+//            out.writeChars(student.getName());
+            out.writeUTF(student.getName());
+            out.writeInt(student.getAge());
+            out.writeInt(student.getId());
+//            out.writeChars("\n");
         }
+        out.flush();
         out.close();
+
+        ObjectInputStream in1 = new ObjectInputStream(new BufferedInputStream(new FileInputStream("StudentsSorted.txt")));
+        ArrayList<Student> students1 = new ArrayList<>();
+
+        while (true) {
+            try {
+                students1.add(new Student(in1.readUTF(), in1.readInt(), in1.readInt()));
+            } catch (EOFException e) {
+                break;
+            }
+        }
+        System.out.println("Sorted by name list of students. From StudentsSorted.txt\n" + students1);
 
     }
 }
