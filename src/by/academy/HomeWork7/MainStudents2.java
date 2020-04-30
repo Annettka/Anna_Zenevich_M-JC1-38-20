@@ -43,9 +43,9 @@ public class MainStudents2 {
                 return s1.getName().compareTo(s2.getName());
             }
         });
-        System.out.println("Sorted by name list of students\n" + students);
+        System.out.println("Sorted by name list of students. From Students.bin\n" + students);
 
-        ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("StudentsSorted.txt"));
+        ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("StudentsSorted.bin"));
         for (Student student : students) {
 //            out.writeChars(student.getName());
             out.writeUTF(student.getName());
@@ -56,7 +56,7 @@ public class MainStudents2 {
         out.flush();
         out.close();
 
-        ObjectInputStream in1 = new ObjectInputStream(new BufferedInputStream(new FileInputStream("StudentsSorted.txt")));
+        ObjectInputStream in1 = new ObjectInputStream(new BufferedInputStream(new FileInputStream("StudentsSorted.bin")));
         ArrayList<Student> students1 = new ArrayList<>();
 
         while (true) {
@@ -66,7 +66,7 @@ public class MainStudents2 {
                 break;
             }
         }
-        System.out.println("Sorted by name list of students. From StudentsSorted.txt\n" + students1);
+        System.out.println("Sorted by name list of students. From StudentsSorted.bin\n" + students1);
 
     }
 }

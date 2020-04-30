@@ -10,7 +10,7 @@ public class MainStudents1 {
     public static void main(String[] args) throws IOException {
         Random rnd = new Random();
         ArrayList<Student> students = new ArrayList<>();
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 100000; i++) {
             students.add(new Student(getRndStr(), (17 + rnd.nextInt(30 - 17)), rnd.nextInt(100000)));
         }
 
